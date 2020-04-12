@@ -9,7 +9,7 @@ const fs = require("fs");
         const folderName = fs.existsSync("dist") ? "dist" : "build";
         await execa("git", ["--work-tree", folderName, "add", "--all"]);
         await execa("git", ["--work-tree", folderName, "commit", "-m", "gh-pages"]);
-        console.log("Pushing to gh-pages...");
+        console.log("Pushing to master...");
         await execa("git", ["push", "origin", "HEAD:master", "--force"]);
         await execa("rm", ["-r", folderName]);
         await execa("git", ["checkout", "-f", "develop"]);
