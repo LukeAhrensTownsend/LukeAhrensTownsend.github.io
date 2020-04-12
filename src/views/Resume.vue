@@ -1,12 +1,13 @@
 <template>
   <div>
     <b-jumbotron
-      header="Luke Ahrens-Townsend"
-      lead="Computer Science Graduate (BSc 4-year in Applied Computer Science)"
+      header="Resume"
     >
-      <b-link variant="primary" href="@/assets/resume.pdf" download>Download resume</b-link>
+      <b-button variant="outline-info" href="<%= BASE_URL %>resume.pdf" download>Download</b-button>
     </b-jumbotron>
     <b-container>
+      <h1 class="display-2 text-center">Luke Ahrens-Townsend</h1>
+      <div class="lead text-center mb-5">Software/Web Application Developer</div>
       <b-row>
         <b-col md="4">
           <h2>Contact</h2>
