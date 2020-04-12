@@ -3,7 +3,9 @@
     <b-jumbotron
       header="Luke Ahrens-Townsend"
       lead="Computer Science Graduate (BSc 4-year in Applied Computer Science)"
-    ></b-jumbotron>
+    >
+      <b-link variant="primary" href="@/assets/resume.pdf" download>Download resume</b-link>
+    </b-jumbotron>
     <b-container>
       <b-row>
         <b-col md="4">
