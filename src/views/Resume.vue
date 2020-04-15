@@ -3,10 +3,10 @@
     <b-jumbotron
       header="Resume"
     >
-      <b-button variant="outline-info" href="<%= BASE_URL %>resume.pdf" download>Download</b-button>
+      <b-button variant="outline-info" href="/RESUME_LUKE-AHRENS-TOWNSEND.pdf" download>Download PDF</b-button>
     </b-jumbotron>
     <b-container>
-      <h1 class="display-2 text-center">Luke Ahrens-Townsend</h1>
+      <h1 id="title-name" class="display-4 text-center">Luke Ahrens-Townsend</h1>
       <div class="lead text-center mb-5">Software/Web Application Developer</div>
       <b-row>
         <b-col md="4">
@@ -177,10 +177,20 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head: {
+    title: {
+      inner: "Resume | Luke Ahrens-Townsend"
+    }
+  }
+};
 </script>
 
 <style scoped>
+#title-name {
+  font-size: calc(18px + 4vw);
+}
+
 .section-subheader {
   margin-bottom: 0;
 }

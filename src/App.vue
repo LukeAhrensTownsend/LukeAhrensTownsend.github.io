@@ -15,7 +15,7 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item to="/about" v-bind:active="this.$route.path === '/about'">About</b-nav-item>
+          <b-nav-item to="/about" v-bind:active="this.$route.path === '/about'" hidden>About</b-nav-item>
           <b-nav-item to="/projects" v-bind:active="this.$route.path === '/projects'">
             Projects
             <b-badge
@@ -74,9 +74,6 @@ import "bootstrap-vue/dist/bootstrap-vue.css";
 export default {
   name: "App",
   head: {
-    title: {
-      inner: "Portfolio | Luke Ahrens-Townsend"
-    },
     meta: [
       {
         name: "viewport",
@@ -112,6 +109,10 @@ body,
 #app,
 .container {
   height: 100%;
+}
+
+.navbar {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .navbar-logo {

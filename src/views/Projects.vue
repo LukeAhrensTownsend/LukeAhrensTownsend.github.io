@@ -8,16 +8,16 @@
           v-bind:key="project.id"
           :title="project.name.replace(/-/g, ' ')"
           :img-src="require(`@/assets/${project.name}.png`)"
-          img-alt="Image"
+          :img-alt="`${project.name} image`"
           img-top
           tag="article"
           style="max-width: 20rem;"
-          class="mb-5 mx-3"
+          class="mb-5 mx-auto mx-md-3"
         >
           <b-card-text>{{ project.description }}</b-card-text>
 
           <b-button-toolbar justify>
-            <b-button :href="project.html_url" variant="primary">Source Code</b-button>
+            <b-button :href="project.html_url" variant="outline-primary">Source Code</b-button>
             <b-button
               :href="project.homepage"
               variant="primary"
@@ -32,7 +32,12 @@
 
 <script>
 export default {
-  props: ["projectData"]
+  props: ["projectData"],
+  head: {
+    title: {
+      inner: "Projects | Luke Ahrens-Townsend"
+    }
+  }
 };
 </script>
 
