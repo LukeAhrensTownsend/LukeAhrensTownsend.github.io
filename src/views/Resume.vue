@@ -31,9 +31,11 @@
           <hr />
 
           <h2>Education</h2>
-          <h5 class="section-subheader">Shaftesbury High School</h5>
-          <small>2010-2013</small>
-          <div class="lead">Earned high school diploma.</div>
+          <h5 class="section-subheader">University of Winnipeg</h5>
+          <small>2015-2020</small>
+          <div
+            class="lead"
+          >Currently finishing up my fifth (and final) year at the University of Winnipeg as a computer science student. Upon completion of this year, I will obtain a Bachelor of Science degree in Applied Computer Science (BSc 4-year).</div>
 
           <br />
 
@@ -45,11 +47,9 @@
 
           <br />
 
-          <h5 class="section-subheader">University of Winnipeg</h5>
-          <small>2015-2020</small>
-          <div
-            class="lead"
-          >Currently finishing up my fifth (and final) year at the University of Winnipeg as a computer science student. Upon completion of this year, I will obtain a Bachelor of Science degree in Applied Computer Science (BSc 4-year).</div>
+          <h5 class="section-subheader">Shaftesbury High School</h5>
+          <small>2010-2013</small>
+          <div class="lead">Earned high school diploma.</div>
 
           <hr />
 
