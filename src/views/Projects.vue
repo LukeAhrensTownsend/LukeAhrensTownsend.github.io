@@ -35,7 +35,8 @@ export default {
   props: ["projectData"],
   head: {
     title: {
-      inner: "Projects | Luke Ahrens-Townsend"
+      inner: "Projects",
+      complement: "Luke Ahrens-Townsend"
     }
   }
 };

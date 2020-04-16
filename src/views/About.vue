@@ -13,7 +13,8 @@
 export default {
   head: {
     title: {
-      inner: "About Me | Luke Ahrens-Townsend"
+      inner: "About Me",
+      complement: "Luke Ahrens-Townsend"
     }
   }
 };

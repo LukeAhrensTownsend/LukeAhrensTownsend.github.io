@@ -52,7 +52,8 @@
 export default {
   head: {
     title: {
-      inner: "Portfolio | Luke Ahrens-Townsend"
+      inner: "Portfolio",
+      complement: "Luke Ahrens-Townsend"
     }
   }
 };

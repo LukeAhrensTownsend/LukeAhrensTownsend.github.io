@@ -180,7 +180,8 @@
 export default {
   head: {
     title: {
-      inner: "Resume | Luke Ahrens-Townsend"
+      inner: "Resume",
+      complement: "Luke Ahrens-Townsend"
     }
   }
 };
