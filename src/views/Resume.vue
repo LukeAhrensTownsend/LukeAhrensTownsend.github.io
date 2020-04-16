@@ -35,7 +35,7 @@
           <small>2015-2020</small>
           <div
             class="lead"
-          >Currently finishing up my fifth (and final) year at the University of Winnipeg as a computer science student. Upon completion of this year, I will obtain a Bachelor of Science degree in Applied Computer Science (BSc 4-year).</div>
+          >In April 2020 I completed my Bachelor of Science degree (majoring in Applied Computer Science) at the University of Winnipeg.</div>
 
           <br />
 
@@ -58,7 +58,7 @@
           <small>Nov 2019 &#x2022; University of Winnipeg</small>
           <div
             class="lead"
-          >In the 2018-19 academic year, I was placed on the Dean’s Honour List as a student of distinction for achieving a 3.708 GPA. I’m currently on pace to achieve an even higher GPA this year.</div>
+          >In the 2018-19 academic year, I was placed on the Dean’s Honour List as a student of distinction for achieving a 3.708 GPA.</div>
 
           <hr />
         </b-col>
