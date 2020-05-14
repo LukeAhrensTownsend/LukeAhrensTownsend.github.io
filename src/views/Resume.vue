@@ -43,7 +43,7 @@
           <small>2013-2015</small>
           <div
             class="lead"
-          >Studied accounting and environmental sciences with an average grade of B+.</div>
+          >Studied accounting and environmental sciences.</div>
 
           <br />
 
@@ -55,7 +55,15 @@
 
           <h2>Achievements</h2>
           <h5 class="section-subheader">Dean's Honour List</h5>
-          <small>Nov 2019 &#x2022; University of Winnipeg</small>
+          <small>2019-20 &#x2022; University of Winnipeg</small>
+          <div
+            class="lead"
+          >In my final academic year, I was placed on the Dean’s Honour List as a student of distinction for achieving a 3.875 GPA.</div>
+
+          <br />
+
+          <h5 class="section-subheader">Dean's Honour List</h5>
+          <small>2018-19 &#x2022; University of Winnipeg</small>
           <div
             class="lead"
           >In the 2018-19 academic year, I was placed on the Dean’s Honour List as a student of distinction for achieving a 3.708 GPA.</div>
