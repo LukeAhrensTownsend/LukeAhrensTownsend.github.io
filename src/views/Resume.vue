@@ -35,7 +35,7 @@
           <small>2015-2020</small>
           <div
             class="lead"
-          >In April 2020 I completed my Bachelor of Science degree (majoring in Applied Computer Science) at the University of Winnipeg.</div>
+          >In April 2020 I completed my Bachelor of Science degree (majoring in Applied Computer Science) at the University of Winnipeg with a 3.31 GPA.</div>
 
           <br />
 
