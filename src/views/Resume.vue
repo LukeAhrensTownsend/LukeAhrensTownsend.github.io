@@ -39,12 +39,6 @@
 
           <br />
 
-          <h5 class="section-subheader">University of Manitoba</h5>
-          <small>2013-2015</small>
-          <div
-            class="lead"
-          >Studied accounting and environmental sciences.</div>
-
           <br />
 
           <h5 class="section-subheader">Shaftesbury High School</h5>
@@ -54,6 +48,15 @@
           <hr />
 
           <h2>Achievements</h2>
+
+          <h5 class="section-subheader">Gold Medal for Achievement in a Major (4-Year Applied Computer Science)</h5>
+          <small>2019-20 &#x2022; University of Winnipeg</small>
+          <div
+            class="lead"
+          >In my final academic year, I received the gold medal award for achieving the highest overall average in the major.</div>
+
+          <br />
+
           <h5 class="section-subheader">Dean's Honour List</h5>
           <small>2019-20 &#x2022; University of Winnipeg</small>
           <div
