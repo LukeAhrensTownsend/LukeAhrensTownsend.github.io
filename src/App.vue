@@ -22,7 +22,7 @@
               :variant="this.$route.path === '/projects' ? 'light' : ''"
             >{{projectData.length}}</b-badge>
           </b-nav-item>
-          <b-nav-item to="/resume" v-bind:active="this.$route.path === '/resume'">Resume</b-nav-item>
+          <b-nav-item to="/resume" v-bind:active="this.$route.path === '/resume'" hidden>Resume</b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->

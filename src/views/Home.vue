@@ -6,11 +6,11 @@
         <div
           id="title-description"
           class="lead text-center"
-        >Computer Science Graduate (BSc 4-year in Applied Computer Science)</div>
+        >Software Developer (BSc 4-year in Applied Computer Science)</div>
         <b-button-toolbar class="justify-content-center">
           <b-button class="mx-3" to="/about" variant="outline-info" hidden>About Me</b-button>
           <b-button class="mx-3" to="/projects" variant="outline-info">Projects</b-button>
-          <b-button class="mx-3" to="/resume" variant="outline-info">Resume</b-button>
+          <b-button class="mx-3" to="/resume" variant="outline-info" hidden>Resume</b-button>
         </b-button-toolbar>
 
         <b-button-toolbar id="social-button-group" class="justify-content-center">
